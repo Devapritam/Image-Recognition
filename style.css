@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: white;
+    background: radial-gradient(rgb(199, 189, 189), #f35f84);
+}
+
+.headingText {
+    width: 90%;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 27px;
+    border: none;
+    background: transparent;
+    transition: 0.7s;
+    color: white;
+    padding: 10px 10px;
+}
+
+.headingText:hover {
+    transform: translateY(-5px);
+    background: #00d6e6;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.headingSecondary {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+.name_of_objects p{
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.name_of_objects p:hover {
+   font-size: 20px;
+   transform: translateY(-5px); 
+}
+
+.outerCamera {
+    width: 400px;
+    height: 350px;
+    border: none;
+    padding: 20px 20px;
+    background: radial-gradient(#fff, #ffcc3e);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    transition: transform 0.5s;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.outerCamera:hover {
+    transform: translateY(-5px);
+}
+
+.header{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.outerResultImg {
+    width: 400px;
+    height: 350px;
+    border: none;
+    padding: 20px 20px;
+    background: radial-gradient(#fff, #00d6e6);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    transition: transform 0.5s;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.outerResultImg:hover {
+    transform: translateY(-5px);
+}
+
+#camera {
+    /* background-color: black; */
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#resultImg {
+    /* background-color: black; */
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#object_name, #object_accuracy {
+    color: red;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 50%;
+}
+
+button {
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 25%;
+    transition: 0.5s;
+}
+
+button:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    background: none;
+}
+
+.paragraph {
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.paragraph:hover {
+    font-size: 20px;
+}
+
+.allBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
